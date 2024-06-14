@@ -1,0 +1,48 @@
+/* @define-color wm_button_close_bg #ff7139;
+@define-color wm_button_close_hover_bg #ffa480;
+@define-color wm_button_close_active_bg #d23b00; */
+/* @define-color wm_icon_close_bg #f8f8f8; */
+
+/* windowcontrols button.close,
+windowcontrols button.close:hover,
+windowcontrols button.close:active,
+windowcontrols button.close:checked, */
+
+/* windowcontrols button.close {
+  background-image: radial-gradient(
+    circle at 50%,
+    #ff7139,
+    #ff7139 65%,
+    #2b2b2b 65%
+  );
+}
+windowcontrols button.close,
+windowcontrols button.close:hover,
+windowcontrols button.close:active,
+windowcontrols button.close:backdrop {
+  color: #ffffff;
+}
+windowcontrols button.close:backdrop {
+  background-image: radial-gradient(
+    circle at 50%,
+    #626262,
+    #626262 65%,
+    #2b2b2b 65%
+  );
+} */
+/* windowcontrols button.close:hover {
+  background-image: radial-gradient(
+    circle at 50%,
+    #ff8353,
+    #ff8353 65%,
+    #2b2b2b 65%
+  );
+}
+windowcontrols button.close:active {
+  background-image: radial-gradient(
+    circle at 50%,
+    #ff5f20,
+    #ff5f20 65%,
+    #2b2b2b 65%
+  );
+} */
