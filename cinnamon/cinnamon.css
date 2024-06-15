@@ -318,20 +318,9 @@ StScrollBar StButton#hhandle:active {
 .menu {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
-  border-radius: 3px;
+  border-radius: 10px;
   background-color: rgba(47, 47, 47, 0.99);
-}
-.menu.top {
-  border-radius: 0 0 3px 3px;
-}
-.menu.bottom {
-  border-radius: 3px 3px 0 0;
-}
-.menu.left {
-  border-radius: 0 3px 3px 0;
-}
-.menu.right {
-  border-radius: 3px 0 0 3px;
+  margin: 10px;
 }
 
 .popup-sub-menu {
@@ -523,7 +512,7 @@ StScrollBar StButton#hhandle:active {
 }
 #panelRight:ltr {
   padding-left: 4px;
-  spacing: 0px;
+  spacing: 5px;
 }
 #panelRight:rtl {
   padding-right: 4px;
@@ -583,7 +572,7 @@ StScrollBar StButton#hhandle:active {
 
 .panelRight:ltr {
   padding-left: 4px;
-  spacing: 0px;
+  spacing: 5px;
 }
 
 .panelRight:rtl {
@@ -662,6 +651,7 @@ StScrollBar StButton#hhandle:active {
   -minimum-hpadding: 3px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.87);
+  margin-left: 5px;
 }
 
 .panel-button {
@@ -675,7 +665,8 @@ StScrollBar StButton#hhandle:active {
 
 .system-status-icon {
   icon-size: 16px;
-  padding: 0 1px;
+  padding: 0 1px; /* 
+  margin-left: 5px; */
 }
 .system-status-icon.warning {
   color: #f27835;
@@ -1466,12 +1457,14 @@ StScrollBar StButton#hhandle:active {
   transition-duration: 300;
   background-color: #333333;
   border: 1px solid #202020;
+  border-radius: 10px;
+  margin-left: 5px;
 }
 
 .menu-favorites-button {
   padding: 0.9em 1em;
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 2px;
+  border-radius: 6px;
 }
 .menu-favorites-button:hover {
   background-color: #525352;
